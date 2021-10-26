@@ -1,0 +1,16 @@
+{
+  "name": "pdp_data_updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daine Marshall",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.12"
+  }
+}
