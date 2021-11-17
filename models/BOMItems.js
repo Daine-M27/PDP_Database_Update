@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const bomItemsSchema = mongoose.Schema({
+  ModifiedByID: Number,
   BasePrice: Number,
   CatalogCategoryPK: Number,
   CatalogIdentifierID: Number,
