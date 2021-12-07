@@ -16,7 +16,7 @@ const bomURL =
 // database connection
 try {
   mongoose.connect(
-    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@lsiproductconfigurator.5xm1k.mongodb.net/LSIProductConfigurator?retryWrites=true&w=majority&useUnifiedTopology=true&useNewUrlParser=true`
+    `mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASS}@lsiproductconfigurator.5xm1k.mongodb.net/LSIProductConfigurator?retryWrites=true&w=majority&useUnifiedTopology=true&useNewUrlParser=true`
   );
   console.log("DB Connected");
 } catch (error) {

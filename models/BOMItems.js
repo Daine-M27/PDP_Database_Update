@@ -28,9 +28,10 @@ const bomItemsSchema = mongoose.Schema({
   SuggestedPrice: Number,
   UnitOfMeasureSetFK: Number,
   VendorPartNumber: String,
+  Weight: Number,
   _isSelected: Boolean,
   CatalogIDs: [],
-  ComponentTypeIDs: [],
+  ComponentTypeIDs: []
 });
 
 module.exports = mongoose.model(
