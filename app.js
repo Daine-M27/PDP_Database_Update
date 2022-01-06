@@ -8,10 +8,10 @@ const BOMItems = require("./models/BOMItems")
 
 // URLs
 const optionsURL =
-  "http://192.168.0.167:57206/SandBox/LsiUtilityService.svc/GetProductComponentOptions/82";
+  "http://192.168.0.167:57204/Live/LsiUtilityService.svc/GetProductComponentOptions/86";
 
 const bomURL =
-  "http://192.168.0.167:57206/SandBox/LsiUtilityService.svc/GetProductBomItems/82";
+  "http://192.168.0.167:57204/Live/LsiUtilityService.svc/GetProductBomItems/86";
 
 // database connection
 try {
